@@ -2,3 +2,7 @@ body{
   background-color: #E0FFFF;
   color: #000;
 }
+nav{
+  display:block;
+  color: #fff;
+}
