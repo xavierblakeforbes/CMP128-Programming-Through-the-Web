@@ -1,4 +1,6 @@
 # CMP128-Programming-Through-the-Web
+Exercises 3.3.2025:
+
     Modify the Color Scheme:
         Task: Change the background color, text color, and button styles.
         Learning Objective: Understanding CSS properties.
