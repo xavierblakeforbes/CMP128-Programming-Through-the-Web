@@ -2,7 +2,10 @@ let quotes = [ "Darkness cannot drive out darkness, only light can do that. Hate
 let quote = quotes[0]; // the first quote 
 function logfirstquote()
 {
-  let randomNumber= Math.floor(Math.random()*quotes.length);
-  console.log(quotes[randomNumber]);
+  let randomquote= Math.floor(Math.random()*quotes.length);
+  console.log(quotes[randomquote]);
+  let myQuote=quotes[randomquote];
+  let quoteDivElement= document.getElementByID("MyQuote");
+  quoteDivElement.innerHTML = myQipte;
 }
 logfirstquote();
