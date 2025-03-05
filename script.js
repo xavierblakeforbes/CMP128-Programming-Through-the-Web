@@ -5,7 +5,7 @@ function logfirstquote()
   let randomquote= Math.floor(Math.random()*quotes.length);
   console.log(quotes[randomquote]);
   let myQuote=quotes[randomquote];
-  let quoteDivElement= document.getElementByID("MyQuote");
-  quoteDivElement.innerHTML = myQupte;
+  let quoteDivElement= document.getElementById("MyQuote");
+  quoteDivElement.innerHTML = myQuote;
 }
 logfirstquote();
