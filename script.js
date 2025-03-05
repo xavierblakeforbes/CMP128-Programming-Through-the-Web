@@ -6,6 +6,6 @@ function logfirstquote()
   console.log(quotes[randomquote]);
   let myQuote=quotes[randomquote];
   let quoteDivElement= document.getElementByID("MyQuote");
-  quoteDivElement.innerHTML = myQipte;
+  quoteDivElement.innerHTML = myQupte;
 }
 logfirstquote();
